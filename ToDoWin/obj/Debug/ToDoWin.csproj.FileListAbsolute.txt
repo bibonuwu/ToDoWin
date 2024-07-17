@@ -1,0 +1,14 @@
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\bin\Debug\ToDoWin.exe.config
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\bin\Debug\ToDoWin.exe
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\bin\Debug\ToDoWin.pdb
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.csproj.AssemblyReference.cache
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\MainWindow.baml
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\MainWindow.g.cs
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\App.g.cs
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin_MarkupCompile.cache
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.g.resources
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.Properties.Resources.resources
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.csproj.GenerateResource.cache
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.csproj.CoreCompileInputs.cache
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.exe
+C:\Users\uwu\Desktop\ToDoWin\ToDoWin\obj\Debug\ToDoWin.pdb
