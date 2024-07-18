@@ -6,17 +6,16 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media.Animation;
+using System.IO;
 
 namespace ToDoWin
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         private string dynamicText;
         private int currentTextBlock = 0;
         private List<TextBox> textBoxes;
+        private string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
         public string DynamicText
         {
@@ -39,6 +38,7 @@ namespace ToDoWin
             DynamicText = "Исходный текст";
             DataContext = this;
             textBoxes = new List<TextBox> { DynamicTextBox1, DynamicTextBox2, DynamicTextBox3, DynamicTextBox4 };
+            LoadText();
 
             // Window configuration for taskbar-like appearance
             WindowStyle = WindowStyle.None;
@@ -47,6 +47,33 @@ namespace ToDoWin
             Topmost = true;
 
             SetStartup();
+        }
+
+        private void LoadText()
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(Path.Combine(docPath, "savedTexts.txt"));
+                for (int i = 0; i < lines.Length && i < textBoxes.Count; i++)
+                {
+                    textBoxes[i].Text = lines[i];
+                }
+            }
+            catch (Exception)
+            {
+                // Handle exceptions or do nothing if file doesn't exist
+            }
+        }
+
+        private void SaveText()
+        {
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "savedTexts.txt")))
+            {
+                foreach (var textBox in textBoxes)
+                {
+                    outputFile.WriteLine(textBox.Text);
+                }
+            }
         }
 
         private void SetStartup()
@@ -80,6 +107,7 @@ namespace ToDoWin
                 textBoxes[currentTextBlock].Text = InputTextBox.Text;
                 currentTextBlock = (currentTextBlock + 1) % textBoxes.Count;
                 InputTextBox.Clear();
+                SaveText();
             }
         }
 

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoWin", "ToDoWin\ToDoWin.csproj", "{F52B5ABA-7A83-486D-9849-ABEAA23F7934}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup ToDoWin", "Setup ToDoWin\Setup ToDoWin.vdproj", "{8236BB68-2B38-4C60-ADE9-FAFA0581882A}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup ToDoWin", "Setup ToDoWin\Setup ToDoWin.vdproj", "{041A1B46-1ED2-47A4-815B-96C5878B70D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{F52B5ABA-7A83-486D-9849-ABEAA23F7934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F52B5ABA-7A83-486D-9849-ABEAA23F7934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F52B5ABA-7A83-486D-9849-ABEAA23F7934}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8236BB68-2B38-4C60-ADE9-FAFA0581882A}.Debug|Any CPU.ActiveCfg = Debug
-		{8236BB68-2B38-4C60-ADE9-FAFA0581882A}.Release|Any CPU.ActiveCfg = Release
+		{041A1B46-1ED2-47A4-815B-96C5878B70D5}.Debug|Any CPU.ActiveCfg = Debug
+		{041A1B46-1ED2-47A4-815B-96C5878B70D5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
