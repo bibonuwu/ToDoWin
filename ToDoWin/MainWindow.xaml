@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Magnetic Window" Height="358" Width="300"
         AllowsTransparency="True" WindowStyle="None"
-        Background="Transparent">
-    <Border Background="White" BorderBrush="Black" BorderThickness="1" CornerRadius="0,20,20,0">
+        Background="Transparent" Foreground="{x:Null}">
+    <Border Background="White" CornerRadius="0,20,20,0">
 
         <StackPanel>
 
